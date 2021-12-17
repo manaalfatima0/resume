@@ -1,0 +1,79 @@
+
+footer {
+	padding: 0.2rem;
+  text-align: center;
+  
+}
+footer p{
+	text-align: center;
+}
+.footer{
+  overflow: hidden;
+}
+.transition-animation {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* Ul styles */
+ul {
+  
+  list-style: none;
+}
+ul > li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.ic {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 42px;
+  text-align: center;
+  background-color: #000000;
+}
+.ic:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+}
+/* Hover effect */
+.ic-effect .ic {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.ic-effect .ic:after {
+  top: -7px;
+  left: -7px;
+  padding: 7px;
+  box-shadow: 0 0 0 4px #f1f1f1;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0;
+}
+.ic-effect-1a .ic:hover {
+  background-color: #27ffb7;
+  color: #ffffff;
+}
